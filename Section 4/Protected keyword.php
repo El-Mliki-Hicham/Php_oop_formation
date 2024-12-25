@@ -29,7 +29,7 @@ class VIP extends Customer
 	}
 }
 
-$bob = new Customer('bob allen');
-echo $bob->getName(); // Bob Allen
+$vip = new VIP('hicham');
+echo $vip->getName(); // HICHAM 
 
 ?>
