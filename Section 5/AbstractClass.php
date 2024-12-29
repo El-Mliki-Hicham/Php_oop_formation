@@ -6,7 +6,10 @@ abstract class Person{
 
     abstract function setName(string $name):void;
     abstract function getName():void;
-
+    
+    function test(){
+        return "text";
+    }
 }
 
 class Prof extends Person{
