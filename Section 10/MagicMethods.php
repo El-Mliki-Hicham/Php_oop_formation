@@ -88,4 +88,7 @@ $obj->nonExistentMethod(1, 2, 3);  // Output: Appel de la méthode nonExistentMe
     $obj->name = 'Hicham';
     echo $obj->name;  // Output: Hicham
 
+
+    // __toString() is a magic method that is called when an object is converted to a string.
+
 ?>
